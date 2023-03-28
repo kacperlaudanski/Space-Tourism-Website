@@ -80,3 +80,65 @@ nav ul li a span{
     font-size: 1.2rem;
 }
 
+main{
+    width:100%; 
+    height:400px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding:0 6em; 
+    margin-top:8em;
+}
+
+.introduction-container{
+    width:40%; 
+    height:300px;
+    color:#fff;
+}
+
+.introduction-container span{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.657); 
+}
+
+.introduction-container h1{
+    font-family: 'Tiro Telugu', serif;
+    font-size: 7rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+
+.introduction-container p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color:rgba(255, 255, 255, 0.657); 
+}
+
+.explore-container{
+    width:40%; 
+    height:300px;
+    margin-top: 9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-button{
+    width:60%;
+    height:90%;
+    border-radius: 100%;
+    font-size: 2rem;
+    font-family: 'Nunito Sans', serif;
+    border:none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
